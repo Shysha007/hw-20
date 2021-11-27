@@ -94,7 +94,7 @@ console.log(every(arrEvery, (item,i,arr) => item > 1)); //false
 
  //some
 
- let arrSome = [1,8,6,5];
+let arrSome = [1,8,6,5];
 function some( arr, callback ) {
   if (arr.length === 0) return false;
     for(let i = 0; i < arr.length; i++){
